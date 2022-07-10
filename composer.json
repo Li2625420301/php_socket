@@ -1,0 +1,27 @@
+{
+    "name": "socket/te",
+    "type": "library",
+    "description": "The socket library",
+    "keywords": [
+        "te", 
+        "socket"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^7.3",
+        "opis/closure": "^3.6"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Te\\": "src/",
+            "App\\": "app/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
